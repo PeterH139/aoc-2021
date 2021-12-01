@@ -9,8 +9,7 @@
 (defn count-increases [xs]
   (->> (into [Integer/MAX_VALUE] xs)
        (map vector xs)
-       (map (partial apply >))
-       (filter identity)
+       (filter (partial apply >))
        count))
 
 (defn to-window-sums [n xs]
