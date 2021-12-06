@@ -1,6 +1,6 @@
-(ns aoc-2021.day-one-test
+(ns aoc-2021.day-1-test
   (:require [clojure.test :refer :all]
-            [aoc-2021.day-one :refer :all]))
+            [aoc-2021.day-1 :refer :all]))
 
 (deftest day-one-part-one
   (testing "matches example"

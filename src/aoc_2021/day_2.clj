@@ -1,4 +1,4 @@
-(ns aoc-2021.day-two
+(ns aoc-2021.day-2
   (:require [clojure.string :as str]))
 
 (defn- parse-command [c]
@@ -30,9 +30,9 @@
             course)))
 
 (defn part-one-answer []
-  (let [course (parse-course (slurp "resources/day-two"))]
+  (let [course (parse-course (slurp "resources/day-2"))]
     (* (part-one-depth-after course) (hpos-after course))))
 
 (defn part-two-answer []
-  (let [course (parse-course (slurp "resources/day-two"))]
+  (let [course (parse-course (slurp "resources/day-2"))]
     (* (part-two-depth-after course) (hpos-after course))))

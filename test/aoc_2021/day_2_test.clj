@@ -1,6 +1,6 @@
-(ns aoc-2021.day-two-test
+(ns aoc-2021.day-2-test
   (:require [clojure.test :refer :all]
-            [aoc-2021.day-two :refer :all]))
+            [aoc-2021.day-2 :refer :all]))
 
 (deftest day-two-part-one
   (let [example (parse-course "forward 5\ndown 5\nforward 8\nup 3\ndown 8\nforward 2")]
